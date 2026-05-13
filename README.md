@@ -36,7 +36,6 @@ TrOCR_All_In_One/
     * **`train/`**: Contains the training images in the `images/` subfolder and the corresponding labels in `labels.csv`.
     * **`validation/`**: Contains the validation images in the `images/` subfolder and the corresponding labels in `labels.csv`.
 * **`saved_models/`**: This folder will store the trained model checkpoints.
-    * **`train/`**: History can be found at `126.32.3.23,share=e/AI_DATA/2025/TrOCR`
 * **`dataset.py`**: Defines the PyTorch `Dataset` class for loading and processing the image and label data.
 * **`model.py`**: Defines the TrOCR model architecture.
 * **`test.py`**: Contains the script for evaluating the performance of a trained model on the validation or test dataset.
@@ -61,7 +60,6 @@ data/
 ├── images/          # Contains validation image files
 └── labels.csv       # CSV file with image filenames and corresponding labels
 ```
-Sample data can be found at `126.32.3.23,share=e/AI_DATA/2025/TrOCR`  
 
 ## Configuration
 
