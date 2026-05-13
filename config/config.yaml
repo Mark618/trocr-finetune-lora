@@ -1,0 +1,16 @@
+experiment_name: "model_1"
+train_data: "data/train"
+valid_data: "data/val"
+batch_size: 4
+lr: 7.329140747746144e-05
+num_epochs: 1
+half_prec: True
+encoder_train: "lora" # Default: lora option None, lora, dora, lora-fa
+encoder_rank: 32
+encoder_alpha: 16
+encoder_target_modules: ["query","value"] # option key, query, value
+decoder_train: "None" # Default: None, option None, lora, dora, lora-fa
+decoder_rank: 32
+decoder_alpha: 16
+decoder_target_modules: ["q_proj", "k_proj", "v_proj", "out_proj"]
+img_augmentation: False
